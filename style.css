@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #1f2937;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 30px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9px;
+    margin: 4rem;
+}
+
+.textwithbtn {
+
+
+    height: 17rem;
+    width: 16rem;
+
+    .main-text {
+        color: #f9faf8;
+        font-size: 48px;
+        font-weight: bolder;
+    }
+
+    .secondary-text {
+        color: #e5e7eb;
+        text-wrap: wrap;
+        font-size: 24px;
+
+    }
+
+   
+}
+
+button {
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    height: 1.5rem;
+    width: 4rem;
+
+
+}
+
+
+
+.image-placeholder {
+    height: 10rem;
+    width: 20rem;
+    background-color: grey;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+.featureSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: auto;
+    margin-bottom: 5rem;
+
+    h3 {
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: bolder;
+
+    }
+}
+
+.featureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.featureItem {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.featureImgSpan {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: 2px solid rgb(66, 191, 223);
+}
+
+.featureTxtSpan {
+    height: 6rem;
+    width: 6rem;
+    color: #717885;
+    font-size: 18px;
+
+
+}
+
+.quotes {
+    height: 20rem;
+    max-width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    p {
+        height: 5rem;
+        width: 70%;
+        font-size: 36px ;
+        font-weight: lighter;
+        font-style: italic;
+        color: #1f2937;
+        align-content: center;
+        text-align: center;
+
+    }
+}
+
+.subscription{
+    display: flex;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 10rem 5rem 10rem;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+
+    button{
+        border: 1px solid whitesmoke;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    height: 4rem;
+    width: 100%;
+    background-color: #1f2937;
+    text-align: center;
+    align-content: center;
+}
